@@ -6,3 +6,7 @@ keeper:
 
 image:
   repository: bitnamilegacy/clickhouse
+
+keeper:
+  image:
+    repository: bitnamilegacy/clickhouse-keeper
