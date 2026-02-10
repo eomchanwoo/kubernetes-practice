@@ -1,0 +1,5 @@
+shards: 1
+replicaCount: 1
+
+keeper:
+  replicaCount: 1
