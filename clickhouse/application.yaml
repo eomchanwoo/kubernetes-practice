@@ -7,7 +7,7 @@ spec:
   sources:
     - repoURL: https://charts.bitnami.com/bitnami
       chart: clickhouse
-      targetRevision: 9.x.x
+      targetRevision: 9.4.4
       ref: helm-chart
     - repoURL: https://github.com/eomchanwoo/kubernetes-practice.git
       targetRevision: main
@@ -18,3 +18,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: clickhouse
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
