@@ -9,12 +9,12 @@ spec:
       chart: clickhouse
       targetRevision: 9.4.4
       ref: helm-chart
-    - repoURL: https://github.com/eomchanwoo/kubernetes-practice.git
-      targetRevision: main
-      ref: values
       helm:
         valueFiles:
           - $values/clickhouse/values.yaml
+    - repoURL: https://github.com/eomchanwoo/kubernetes-practice.git
+      targetRevision: main
+      ref: values
   destination:
     server: https://kubernetes.default.svc
     namespace: clickhouse
