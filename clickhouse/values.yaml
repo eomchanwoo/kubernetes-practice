@@ -3,3 +3,6 @@ replicaCount: 1
 
 keeper:
   replicaCount: 1
+
+image:
+  repository: bitnamilegacy/clickhouse
