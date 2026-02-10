@@ -7,6 +7,7 @@ spec:
   sources:
     - repoURL: https://charts.bitnami.com/bitnami
       chart: clickhouse
+      targetRevision: 9.x.x
       ref: helm-chart
     - repoURL: https://github.com/eomchanwoo/kubernetes-practice.git
       targetRevision: main
